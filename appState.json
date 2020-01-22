@@ -1,0 +1,96 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7b31ffc0-e26b-437c-8c56-3f64b6d3943a": {
+        "id": "7b31ffc0-e26b-437c-8c56-3f64b6d3943a",
+        "parent": null,
+        "name": "smokeproject2201",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5e7e77ef-72ff-455d-bf06-ac18f6d4525f"
+        ],
+        "isRemovable": false,
+        "filePath": "smokeproject2201"
+      },
+      "5e7e77ef-72ff-455d-bf06-ac18f6d4525f": {
+        "id": "5e7e77ef-72ff-455d-bf06-ac18f6d4525f",
+        "parent": "7b31ffc0-e26b-437c-8c56-3f64b6d3943a",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smokeproject2201/function.js",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "44c2e4e6-db4e-467a-90ef-f278bd8cb32d": {
+        "id": "44c2e4e6-db4e-467a-90ef-f278bd8cb32d",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "4cb01605-e41a-4339-8bc9-af86af3f05bd": {
+        "id": "4cb01605-e41a-4339-8bc9-af86af3f05bd",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "rootNode": "7b31ffc0-e26b-437c-8c56-3f64b6d3943a",
+    "openFiles": [
+      "5e7e77ef-72ff-455d-bf06-ac18f6d4525f"
+    ],
+    "currentFileId": "5e7e77ef-72ff-455d-bf06-ac18f6d4525f",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "smokeproject2201",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "europe-west1",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1579683302472
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "smokeproject2201",
+      "url": "https://github.com/HirudineeADRT/smokeproject2201"
+    }
+  }
+}
